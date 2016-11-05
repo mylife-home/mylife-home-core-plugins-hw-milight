@@ -1,0 +1,20 @@
+{
+  "name": "mylife-home-core-plugins-hw-milight",
+  "version": "0.0.1",
+  "description": "Mylife Home Core Plugin: HW Milight driver",
+  "main": "index.js",
+  "repository": "https://github.com/vincent-tr/mylife-home-core-plugins-hw-milight",
+  "author": "Vincent Trumpff",
+  "dependencies": {
+    "log4js": "*",
+    "node-milight-promise": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "jshint": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.js"
+  }
+}
